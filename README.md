@@ -1,6 +1,6 @@
 # Gender Classification of Multilingual Twitter Data Using Individual Textual Features
 ## Data folder setup
-1. In the Data folder, create 3 folders: Original, Training, Partitions.
+1. Due to Github not allowing empty folders, you need to create 3 more folders in the Data folder: Original, Training, Partitions.
 2. In the Original folder, create 4 language folders: DE, FR, IT, NL. Each of them needs to contain a Tweets csv and a gender info txt like this: de_gender_info.txt / tweets-de.csv, corresponding to the language code. The data we used is formatted based on the Twisty Corpus.
 ## Instructions on how to run the project
 1. To prepare the data for training/testing, first run the **<span style="color:red;">CV module</span>** in the Code folder.
